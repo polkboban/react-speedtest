@@ -15,8 +15,8 @@ A simple web game built with React that tests your reaction time. Click as fast 
 ## 📦 Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/polkboban/reaction-speed-test.git
-   cd reaction-speed-test
+   git clone https://github.com/polkboban/react-speed-test.git
+   cd react-speed-test
    ```
 2. Install dependencies:
    ```sh
