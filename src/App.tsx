@@ -27,7 +27,7 @@ function App() {
   const startGame = useCallback(() => {
     setGameState('waiting');
     setReactionTime(null);
-    const delay = Math.floor(Math.random() * 3000) + 2000; // Random delay between 2-5 seconds
+    const delay = Math.floor(Math.random() * 3000) + 2000;
     setCountdown(Math.ceil(delay / 1000));
 
     const countdownInterval = setInterval(() => {
@@ -57,7 +57,7 @@ function App() {
       setGameState('clicked');
     } else if (gameState === 'waiting') {
       setGameState('clicked');
-      setReactionTime(-1); // Indicates a too early click
+      setReactionTime(-1); 
       setAttempts(prev => [-1, ...prev.slice(0, 4)]);
     }
   };
