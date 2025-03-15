@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Timer, Zap, Medal } from 'lucide-react';
 import AttemptHistory from './AttemptHistory';
-import GridDistortion from './GridDistortion';
-
-
+//import GridDistortion from './GridDistortion';
 
 
 type GameState = 'idle' | 'waiting' | 'ready' | 'clicked';
