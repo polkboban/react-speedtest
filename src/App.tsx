@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { Timer, Zap, Medal } from 'lucide-react';
+import { useState, useEffect, useCallback } from 'react';
+import { Timer, Zap, Medal, Rocket, } from 'lucide-react';
 import AttemptHistory from './AttemptHistory';
-//import GridDistortion from './GridDistortion';
 
 
 type GameState = 'idle' | 'waiting' | 'ready' | 'clicked';
@@ -15,7 +14,7 @@ function App() {
   const [attempts, setAttempts] = useState<number[]>([]);
 
   const getFeedback = (time: number) => {
-    if (time < 200) return { text: 'Lightning Fast! 🚀', color: 'text-purple-600' };
+    if (time < 200) return { text: `Lightning Fast! <Medal className="w-5 h-5 text-yellow-500" />`, color: 'text-purple-600' };
     if (time < 300) return { text: 'Super Quick! ⚡', color: 'text-green-600' };
     if (time < 400) return { text: 'Great! 👍', color: 'text-blue-600' };
     if (time < 500) return { text: 'Good 👌', color: 'text-yellow-600' };
