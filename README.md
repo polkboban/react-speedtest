@@ -3,7 +3,7 @@
 A simple web game built with React that tests your reaction time. Click as fast as possible when the screen changes color and see how quick you really are!
 
 ## 🚀 Features
-- Randomized delay before the test starts (2-5 seconds)
+- Randomized delay before the test starts 
 - Immediate feedback on your reaction time
 - Keeps track of your best score
 - Minimal and clean UI with smooth transitions
@@ -15,7 +15,7 @@ A simple web game built with React that tests your reaction time. Click as fast 
 ## 📦 Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/polkboban/react-speed-test.git
+   git clone https://github.com/polkboban/react-speedtest.git
    cd react-speed-test
    ```
 2. Install dependencies:
