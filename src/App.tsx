@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from 'react';
 import { Timer, Zap, Medal, Rocket, } from 'lucide-react';
 import AttemptHistory from './AttemptHistory';
 
-
 type GameState = 'idle' | 'waiting' | 'ready' | 'clicked';
 
 function App() {
