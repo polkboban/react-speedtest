@@ -1,4 +1,4 @@
-# Reaction Speed Test
+# React Speed Test
 
 A simple web game built with React that tests your reaction time. Click as fast as possible when the screen changes color and see how quick you really are!
 
